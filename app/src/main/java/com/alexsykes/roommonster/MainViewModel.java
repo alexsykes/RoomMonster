@@ -53,10 +53,10 @@ public class MainViewModel extends ViewModel {
     }
 
     public void addResult() {
-        ResultDao resultDao = db.resultDao();
-        Result result = new Result();
-        result.dnf = 0;
-
-        resultDao.insert(result);
+//        ResultDao resultDao = db.resultDao();
+//        Result result = new Result();
+//        result.dnf = 0;
+//
+//        resultDao.insert(result);
     }
 }
